@@ -1,0 +1,1 @@
+import unittest\nfrom src.user import User\n\nclass TestUser(unittest.TestCase):\n    def test_user_creation(self):\n        user = User('testuser')\n        self.assertEqual(user.username, 'testuser')
